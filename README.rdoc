@@ -1,4 +1,2 @@
 # Tutoriel Ruby on Rails : Application Exemple
-
-C'est l'Application Exemple pour le
-[Tutoriel Ruby on Rails]
+C'est l'Application Exemple pour le [Tutoriel Ruby on Rails] 
