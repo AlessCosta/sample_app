@@ -1,0 +1,126 @@
+.container {
+    width: 900px;
+    background-color: lightgray;
+}
+
+body {
+    background: white;
+    margin-top: 5px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+header img {
+    padding: 1em;
+    background: #fff;
+    margin: 0 5px;
+}
+
+/* section */
+
+section {
+    font-size: 120%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: #2E2F30;
+    width: 850px;
+    margin: 5px auto;
+}
+
+section h1 {
+    font-size: 2em;
+    text-align: center!important;
+}
+
+section h2 {
+    font-size: 1.5em;
+    text-align: center!important;
+}
+
+section p {
+    text-align: justify;
+}
+
+/* signUp button */
+
+button.btn_sign_up {
+    width: 200px;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 20px;
+    background-color: #0099ff;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+/* navigation */
+
+nav {
+    float: right;
+}
+
+nav {
+    background-color: white;
+    padding: 0 0.7em;
+    white-space: nowrap;
+    margin: 0 5px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.2em 0;
+}
+
+nav ul li a {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+nav ul li a:visited {
+    color: #09c;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    width: 710px;
+    margin: 10px auto;
+}
+
+footer nav {
+    float: none;
+}
+
+/* links */
+
+a {
+    color: #09c;
+    text-decoration: none;
+}
+
+a.signup_button {
+    color: white!important;
+}
+
+a:hover {
+    color: #069;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #069;
+}
