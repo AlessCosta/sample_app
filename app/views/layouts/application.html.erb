@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple App du Tutoriel Ruby on Rails | <%= @titre %></title>
+    <title><%= title %></title>
     <%= csrf_meta_tag %>
+    <%= render 'layouts/stylesheet' %>
   </head>
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= render 'layouts/header' %>
+      <section class="round">
+        <%= yield %>
+      </section>
+      <section class="round description">
+        <p>
+          <strong>Quibus</strong> ita sceleste patratis Paulus cruore perfusus reversusque ad principis castra multos coo
+          pertos paene catenis adduxit in squalorem deiectos atque maestitiam, quorum adventu intendebantur eculei unco
+          sque parabat carnifex et tormenta. et ex is proscripti sunt plures actique in exilium alii, non nullos gladii
+          consumpsere poenales. nec enim quisquam facile meminit sub Constantio, ubi susurro tenus haec movebantur,
+          quemquam absolutum.
+        </p>
+        <p>
+          <strong>Primi</strong> igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.
+          praediximus enim Montium sub ipso vivendi termino his vocabulis appellatos fabricarum culpasse tribunos ut
+          adminicula futurae molitioni pollicitos.
+        </p>
+        <p>
+          <strong>Tempore</strong> quo primis auspiciis in mundanum fulgorem surgeret victura dum erunt homines Roma,
+          ut augeretur sublimibus incrementis, foedere pacis aeternae Virtus convenit atque Fortuna plerumque dissidentes,
+          quarum si altera defuisset, ad perfectam non venerat summitatem.
+        </p>
+      </section>
+      <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>
