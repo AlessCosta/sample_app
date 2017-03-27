@@ -16,7 +16,7 @@ class PagesController < ApplicationController
     @title = "Help section"
   end
 
-  def newUser
+  def new
     @title = "Congrats and Welcome!"
   end
 end

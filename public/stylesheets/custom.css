@@ -124,3 +124,22 @@ a:hover {
 a:visited {
     color: #069;
 }
+
+/* forms */
+
+form label {
+    display: block;
+    font: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size: 1em;
+
+}
+
+form #btn {
+    display: block;
+    width: 150px;
+    background-color: #0099cc;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 0;
+    margin: 20px 0px;
+}
